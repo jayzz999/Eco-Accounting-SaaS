@@ -185,4 +185,4 @@ Follow the [AWS Deployment Guide](./docs/AWS_DEPLOYMENT_GUIDE.md) for full produ
 
 ## License
 
-Proprietary -- Developed for Operisoft Founder Submission.
+Proprietary.
