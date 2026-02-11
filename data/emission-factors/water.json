@@ -1,0 +1,27 @@
+{
+  "version": "2024.1",
+  "source": "Water Footprint Network, EPA",
+  "unit": "kg CO2e per cubic meter",
+  "factors": {
+    "water_supply": {
+      "value": 0.344,
+      "unit": "kg CO2e per cubic meter",
+      "description": "Treatment and distribution of potable water"
+    },
+    "wastewater_treatment": {
+      "value": 0.708,
+      "unit": "kg CO2e per cubic meter",
+      "description": "Wastewater collection and treatment"
+    },
+    "desalination": {
+      "reverse_osmosis": {
+        "value": 1.82,
+        "unit": "kg CO2e per cubic meter"
+      },
+      "thermal": {
+        "value": 4.05,
+        "unit": "kg CO2e per cubic meter"
+      }
+    }
+  }
+}

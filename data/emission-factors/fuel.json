@@ -1,0 +1,39 @@
+{
+  "version": "2024.1",
+  "source": "EPA, IPCC",
+  "unit": "kg CO2e per liter (liquid) or kg CO2e per cubic meter (gas)",
+  "factors": {
+    "natural_gas": {
+      "value": 2.02,
+      "unit": "kg CO2e per cubic meter"
+    },
+    "diesel": {
+      "value": 2.68,
+      "unit": "kg CO2e per liter"
+    },
+    "gasoline": {
+      "value": 2.31,
+      "unit": "kg CO2e per liter"
+    },
+    "lpg": {
+      "value": 1.51,
+      "unit": "kg CO2e per liter"
+    },
+    "heating_oil": {
+      "value": 2.96,
+      "unit": "kg CO2e per liter"
+    },
+    "kerosene": {
+      "value": 2.54,
+      "unit": "kg CO2e per liter"
+    },
+    "coal": {
+      "value": 2.42,
+      "unit": "kg CO2e per kg"
+    },
+    "propane": {
+      "value": 1.51,
+      "unit": "kg CO2e per liter"
+    }
+  }
+}

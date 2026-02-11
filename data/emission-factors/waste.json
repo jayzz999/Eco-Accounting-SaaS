@@ -1,0 +1,33 @@
+{
+  "version": "2024.1",
+  "source": "EPA WARM Model, IPCC",
+  "unit": "kg CO2e per tonne",
+  "factors": {
+    "disposal_methods": {
+      "landfill": {
+        "mixed_waste": 583,
+        "food_waste": 1100,
+        "paper": 1471,
+        "plastic": 21,
+        "metal": 24,
+        "glass": 21
+      },
+      "incineration": {
+        "mixed_waste": 525,
+        "plastic": 2700,
+        "paper": 1356
+      },
+      "composting": {
+        "food_waste": 83,
+        "yard_waste": 62
+      },
+      "recycling": {
+        "paper": -1841,
+        "plastic": -1534,
+        "metal": -1896,
+        "glass": -314,
+        "description": "Negative values represent avoided emissions"
+      }
+    }
+  }
+}

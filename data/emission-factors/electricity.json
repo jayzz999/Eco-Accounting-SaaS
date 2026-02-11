@@ -1,0 +1,56 @@
+{
+  "version": "2024.1",
+  "source": "IEA, EPA, UK DEFRA",
+  "unit": "kg CO2e per kWh",
+  "factors": {
+    "global_average": 0.475,
+    "countries": {
+      "UAE": {
+        "national_grid": 0.427,
+        "regions": {
+          "Dubai": 0.432,
+          "Abu Dhabi": 0.420
+        }
+      },
+      "USA": {
+        "national_grid": 0.386,
+        "regions": {
+          "California": 0.221,
+          "Texas": 0.445,
+          "New York": 0.264
+        }
+      },
+      "UK": {
+        "national_grid": 0.233
+      },
+      "Germany": {
+        "national_grid": 0.348
+      },
+      "India": {
+        "national_grid": 0.708
+      },
+      "China": {
+        "national_grid": 0.555
+      },
+      "Saudi Arabia": {
+        "national_grid": 0.632
+      },
+      "Australia": {
+        "national_grid": 0.610
+      },
+      "France": {
+        "national_grid": 0.056
+      },
+      "Canada": {
+        "national_grid": 0.120
+      }
+    },
+    "renewable_sources": {
+      "solar": 0.041,
+      "wind": 0.011,
+      "hydro": 0.024,
+      "nuclear": 0.012,
+      "geothermal": 0.038
+    }
+  }
+}
